@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexTech Solutions — Premium Commercial Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header & Navigation Bar (Flexbox) -->
+    <header class="navbar-header">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fa-solid me-2 fa-bolt logo-icon"></i> NexTech<span>Solutions</span>
+            </div>
+            
+            <nav class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#products">Products & Services</a>
+                <a href="#about">About Us</a>
+                <a href="#contact">Contact</a>
+                <a href="#account">User Account</a>
+            </nav>
+
+            <div class="nav-actions">
+                <div class="cart-btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="cart-count">3</span>
+                </div>
+                <a href="#account" class="btn btn-primary">Sign In</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Homepage Section (Flexbox Hero) -->
+    <section id="home" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="badge">Next-Gen Tech Commercial Store</span>
+                <h1>Power Your Future with AI Hardware</h1>
+                <p>Explore high-performance smart devices, workstation solutions, and enterprise AI accessories engineered for maximum efficiency.</p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary btn-lg"><i class="fa-solid fa-bag-shopping"></i> Shop Products</a>
+                    <a href="#about" class="btn btn-secondary btn-lg">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="hero.jpg" alt="Commercial Tech Products">
+            </div>
+        </div>
+    </section>
+
+    <!-- Products / Services Section (Flexbox Grid) -->
+    <section id="products" class="products-section">
+        <div class="section-title">
+            <h2>Products & Services</h2>
+            <p>Premium hardware devices and custom enterprise software services</p>
+            <hr class="divider">
+        </div>
+
+        <div class="product-flex-container">
+            <!-- Product Card 1 -->
+            <div class="product-card">
+                <div class="card-img-wrapper">
+                    <span class="tag tag-featured">Top Seller</span>
+                    <img src="product1.jpg" alt="Pro Audio Headphones">
+                </div>
+                <div class="card-body">
+                    <h3>NexAudio ANC Pro Wireless</h3>
+                    <p class="description">Active noise-canceling headphones with 40-hour battery life and spatial AI sound processing.</p>
+                    <div class="card-footer-flex">
+                        <span class="price">$249.99</span>
+                        <button class="btn btn-primary btn-sm"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card 2 -->
+            <div class="product-card">
+                <div class="card-img-wrapper">
+                    <span class="tag tag-new">New Release</span>
+                    <img src="product2.jpg" alt="Smartwatch Tech">
+                </div>
+                <div class="card-body">
+                    <h3>NexChronos Smart AI Watch</h3>
+                    <p class="description">Titanium body with real-time biometric monitoring, offline GPS, and voice AI assistant.</p>
+                    <div class="card-footer-flex">
+                        <span class="price">$329.99</span>
+                        <button class="btn btn-primary btn-sm"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service Card 3 -->
+            <div class="product-card service-card">
+                <div class="service-icon">
+                    <i class="fa-solid fa-cloud-bolt"></i>
+                </div>
+                <div class="card-body">
+                    <h3>Enterprise Cloud Infrastructure</h3>
+                    <p class="description">Custom cloud deployment, server scaling, and automated security monitoring for businesses.</p>
+                    <div class="card-footer-flex">
+                        <span class="price">From $499/mo</span>
+                        <button class="btn btn-secondary btn-sm">Enquire Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service Card 4 -->
+            <div class="product-card service-card">
+                <div class="service-icon">
+                    <i class="fa-solid fa-brain"></i>
+                </div>
+                <div class="card-body">
+                    <h3>AI & ML Custom Integration</h3>
+                    <p class="description">End-to-end integration of LLMs, RAG pipelines, and automated workflow agents into your app.</p>
+                    <div class="card-footer-flex">
+                        <span class="price">Custom Quote</span>
+                        <button class="btn btn-secondary btn-sm">Consultation</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section (Flexbox Layout) -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>About NexTech Solutions</h2>
+                <p>Founded in 2024, NexTech Solutions is a leading commercial technology provider specializing in next-generation hardware and enterprise AI services. We empower businesses and consumers with cutting-edge electronics and software solutions built for scalability and performance.</p>
+                
+                <div class="stats-flex">
+                    <div class="stat-item">
+                        <h4>100K+</h4>
+                        <p>Products Shipped</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4>99.9%</h4>
+                        <p>Service Uptime</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4>24/7</h4>
+                        <p>Customer Support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- User Account Section (Flexbox Form & Profile Card) -->
+    <section id="account" class="account-section">
+        <div class="section-title">
+            <h2>User Account</h2>
+            <p>Access your dashboard, manage orders, and update credentials</p>
+            <hr class="divider">
+        </div>
+
+        <div class="account-flex-container">
+            <!-- Sign In Card -->
+            <div class="account-card">
+                <h3><i class="fa-solid fa-user-lock"></i> Account Sign In</h3>
+                <form class="account-form" onsubmit="event.preventDefault();">
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="email" placeholder="user@domain.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" placeholder="••••••••" required>
+                    </div>
+                    <div class="form-actions-flex">
+                        <label><input type="checkbox"> Remember me</label>
+                        <a href="#">Forgot password?</a>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Login to Account</button>
+                </form>
+            </div>
+
+            <!-- Profile Summary Card -->
+            <div class="account-card profile-preview-card">
+                <h3><i class="fa-solid fa-id-card"></i> Member Benefits</h3>
+                <ul class="benefits-list">
+                    <li><i class="fa-solid fa-check-circle"></i> Priority 2-Day Express Shipping</li>
+                    <li><i class="fa-solid fa-check-circle"></i> Exclusive Discounts & Seasonal Offers</li>
+                    <li><i class="fa-solid fa-check-circle"></i> 24/7 Direct Dedicated Tech Support</li>
+                    <li><i class="fa-solid fa-check-circle"></i> Unified Order History & Warranty Tracking</li>
+                </ul>
+                <div class="account-status">
+                    <span>Status: <b>Active Commercial Account</b></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Details Section (Flexbox Layout) -->
+    <section id="contact" class="contact-section">
+        <div class="section-title">
+            <h2>Contact Us</h2>
+            <p>Get in touch with our commercial sales and technical support team</p>
+            <hr class="divider">
+        </div>
+
+        <div class="contact-flex-container">
+            <div class="contact-info-card">
+                <h3>Contact Information</h3>
+                <div class="info-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                        <strong>Headquarters:</strong>
+                        <p>NexTech Towers, Tech Park, Chennai, Tamil Nadu - 600123</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div>
+                        <strong>Email Us:</strong>
+                        <p>sales@nextechsolutions.com</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <div>
+                        <strong>Phone Number:</strong>
+                        <p>+91 (044) 2800-9900</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-card">
+                <h3>Send Us a Message</h3>
+                <form class="contact-form" onsubmit="event.preventDefault();">
+                    <div class="form-row-flex">
+                        <div class="form-group flex-1">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group flex-1">
+                            <label>Email Address</label>
+                            <input type="email" placeholder="john@example.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Subject</label>
+                        <input type="text" placeholder="Inquiry regarding enterprise orders..." required>
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea rows="4" placeholder="Write your query here..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section (Flexbox) -->
+    <footer class="site-footer">
+        <div class="footer-container-flex">
+            <div class="footer-col">
+                <div class="logo light">
+                    <i class="fa-solid fa-bolt logo-icon"></i> NexTech<span>Solutions</span>
+                </div>
+                <p>Your trusted commercial provider for next-generation hardware and software solutions.</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products & Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Connect With Us</h4>
+                <div class="social-flex">
+                    <a href="https://twitter.com" target="_blank" title="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://linkedin.com" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://instagram.com" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom-flex">
+            <p>© 2026 NexTech Solutions | Commercial Website | All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
